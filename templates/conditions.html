@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>conditions</h1>
+        <!--
+        {% if a > 100 %}
+            <h1>inside if block </h1>
+            <h1>{{a}}</h1>
+
+        {% endif %}
+        -->
+        <!--
+        <h1>If-else Blocks</h1>
+
+        {% if a > b %}
+            <h1>a is Max</h1>
+            <h1>inside if block </h1>
+        {% else %}
+            <h1>b is max</h1>
+            <h1>inside else block</h1>
+        {% endif %}
+
+
+<h1>if-elif-else blocks</h1>
+
+{% if a > b and a > c %}
+    <h1>in if block</h1>
+    <h1>a is max</h1>
+{% elif b > c %}
+    <h1>inside elif </h1>
+    <h1>b is max</h1>
+{% else %}
+    <h1>inide else</h1>
+    <h1>c is max</h1>
+{% endif %}
+
+    -->
+<h1>Nested conditions</h1>
+
+{% if a > b %}
+    {% if a > c %}
+        <h1>a is max</h1>
+    {% else %}
+        <h1>c is max</h1>
+    {% endif %}
+{% else %}
+    {% if b > c %}
+        <h1>b is max</h1>
+    {% else %}
+        <h1>c is max</h1>
+    {% endif %}
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
